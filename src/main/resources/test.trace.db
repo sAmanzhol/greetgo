@@ -1,4 +1,0 @@
-2018-11-20 22:24:04 jdbc[3]: exception
-org.h2.jdbc.JdbcSQLException: Синтаксическая ошибка в выражении SQL "WORD[*]"; ожидалось "WITH, {"
-Syntax error in SQL statement "WORD[*]"; expected "WITH, {"; SQL statement:
-WORD [42001-197]
