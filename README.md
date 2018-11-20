@@ -1,10 +1,10 @@
 # greetgo
-Чтобы скачать с гитхаба проект запускаем команду: git clone https://github.com/sAmanzhol/greetgo.git.<br/>
-Открываем src\main\resources<br/>
-В файле application.properties указываем/заполняем параметр spring.datasource.url<br/>
-указывая путь к файлу в нашем случае jdbc:h2:путь где вы сохранили проект/greetgo/src/main/resources/test<br/> 
-Путь к файлу...
-Делаем вот это. Далее запускаем команду:
-Команда...
-Ждём когда запуститься сервер. После запуска сервера заходим в браузере по адресу:
-http://locahost:8080
+1. Чтобы скачать с гитхаба проект запускаем команду: 'git clone https://github.com/sAmanzhol/greetgo.git'.<br/>
+2. Открываем 'src\main\resources'<br/>
+3. В файле application.properties изменяем значение параметра spring.datasource.url, указывая путь к файлу, в нашем случае 'jdbc:h2:путь где вы сохранили проект/greetgo/src/main/resources/test'<br/> 
+4. Открываем командную строку и заходим в папку нашего проекта . 
+5. Далее запускаем команду: 'mvn spring-boot:run'<br/>
+(Перед тем как запускать команду убедитесь что H2 Database Engine отключен. )<br/>
+6. Ждём когда запуститься сервер. После запуска сервера заходим в браузере по адресу:<br/>
+http://locahost:8080<br/>
+7. Для корректного выхода из приложения просто нажмите ctrl-c в терминале.
