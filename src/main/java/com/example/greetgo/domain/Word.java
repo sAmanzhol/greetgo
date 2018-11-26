@@ -4,6 +4,11 @@ public class Word {
     private int id;
     private String text;
 
+    public Word(int id, String text) {
+        this.id = id;
+        this.text = text;
+    }
+
     public int getId() {
         return id;
     }
